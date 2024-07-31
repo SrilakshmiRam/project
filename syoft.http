@@ -1,0 +1,13 @@
+
+
+//send request
+
+POST http://localhost:3000/users/
+Content-Type:application/json
+
+ {
+    "username":"Ram",
+    "email":"Ram@gmail.com",
+    "password":"@1234",
+    "role":"Manager"
+ }
